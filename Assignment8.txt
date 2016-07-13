@@ -1,0 +1,10 @@
+Clarke Littlejohn
+
+
+1) Can crash. The output if it was not going to crash would be something like ABC 123 or should ge.
+
+2) The total amount of bytes lot would be something like 1 or 2. the pointer p gets lost since new memory is allocated then.
+
+3) Line 26 causes memory leaks
+
+4)line 14 instead of {0,0}; make it {'0','0'}; line 25 free(p); line 32 free(p); 
